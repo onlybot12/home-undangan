@@ -3486,7 +3486,7 @@
 							</div>
 							<script>
 								// Google Apps Script Web App URL
-								const scriptUrl = 'https://script.google.com/macros/s/AKfycbyfdCjK6sV254dbUQYIoKMu6axRhAuvRKK3YjOd1HHj5lYNby8qjLU8Gnpxlv_Jo2J2xA/exec';
+								const scriptUrl = 'https://script.google.com/macros/s/AKfycbyof24jdRc_Qt78wlJaNyGR8LMlEHUn-shUvkq8J44lZ3AOnPYx2A4B8LMN4VAcJjLPrw/exec';
 
 								document.addEventListener('DOMContentLoaded', function () {
 									// Load existing wishes when page loads
@@ -3503,7 +3503,7 @@
 										// Send data to Google Sheets
 										fetch(scriptUrl, {
 											method: 'POST',
-											mode: 'no-cors',
+											// mode: 'no-cors',
 											headers: {
 												'Content-Type': 'application/json',
 											},
